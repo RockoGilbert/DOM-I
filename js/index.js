@@ -1,3 +1,23 @@
+const logoImg = document.querySelector('logo-img');
+  logoImg.src = ("img/logo.png");
+
+const h1Element = document.querySelector('h1');
+  hElement.textContent = "DOM<br> Is<br> Awesome<br>";
+
+const buttonId = document.querySelector('button')
+  buttonId.textContent = "Get Started";
+
+const ctaImg = document.querySelector('cta-img');
+  logoImg.src = ("img/header-img.png");
+
+const h4Element = document.querySelector('h4');
+  h4Element.textContent = "Services";
+
+const pElement = document.querySelector('p');
+  pElement.textContent = "Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus  scelerisque quis.";
+
+
+
 const siteContent = {
   "nav": {
     "nav-item-1": "Services",
@@ -35,6 +55,9 @@ const siteContent = {
   "footer": {
     "copyright" : "Copyright Great Idea! 2018"
   },
+
+  let footer = doucument.querySelector("footer")
+  console
 };
 
 // Example: Update the img src for the logo
