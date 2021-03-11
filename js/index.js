@@ -1,5 +1,17 @@
 // Nav
 
+const anchorTags = document.querySelectorAll('a');
+console.log(anchorTags)
+
+
+
+
+
+
+
+
+
+
 const navColor = document.querySelectorAll('.container header nav a');
   navColor.forEach(link => link.getElementsByClassName.color = "green";
 
