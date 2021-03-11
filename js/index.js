@@ -1,69 +1,96 @@
 // Nav
 
 const anchorTags = document.querySelectorAll('a');
-console.log(anchorTags)
 
-
-
-
-
-
-
-
-
-
-const navColor = document.querySelectorAll('.container header nav a');
-  navColor.forEach(link => link.getElementsByClassName.color = "green";
-
-
-const services = document.getElementsByTagName('a')[0];
+const services = document.getElementByID('a'[0]);
   services.innerHTML = 'Services';
-const product = document.getElementsByTagName('a')[1];
+const product = document.getElementByID('a'[1]);
   product.innerHTML = 'Product';
-const vision = document.getElementsByTagName('a')[2];
+const vision = document.getElementByID('a'[2]);
   vision.innerHTML = 'Vision';
-const features = document.getElementsByTagName('a')[3];
+const features = document.getELementByID('a'[3]);
   features.innerHTML = 'Features';
-const about = document.getElementsByTagName('a')[4];
+const about = document.getELementByID('a'[4]);
   about.innerHTML = 'About';
-const contact = document.getElementsByTagName('a')[5];
+const contact = document.getELementByID('a'[5]);
   contact.innerHTML = 'Contact';
 
-// CTA
-const logoImg = document.querySelector('logo-img');
-  logoImg.src = ("img/logo.png");
+
+
+//Section Class CTA
+const logoImage = querySelector('logo-img');
+  logoImage.src = ('img/logo.png');
 
 const h1Element = document.querySelector('h1');
-  h1ELement.innerHTML = "DOM<br> Is<br> Awesome.";
+  h1Element.innerHTML = 'DOM<br> Is<br> Awesome';
 
-const buttonId = document.querySelector('button')
-  buttonId.innerHTML = "Get Started";
+const button = document.querySelector('button');
+  button.innerHTML = 'Get Started';
 
 const ctaImg = document.querySelector('cta-img');
-  logoImg.src = ("img/header-img.png");
-
-const h4Element = document.querySelector('h4');
-  h4Element.innerHTML = "Services";
+  ctaImg.src = 'img/header-img.png';
 
 
-// Main 
-const h4Features = document.getElementsByTagName('h4')[0];
-  h4Features.innerHTML = 'Features';
+//Main
 
-const featuresContent = document.getElementsByTagName('p')[0];
-  featuresContent.innerHTML = " 'Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';";
+const h4Features = document.querySelector('h4'[0]);
+  h4Features.innerHTML = "Features";
+
+const pFeatures = document.querySelector('p'[0]);
+  pElement.innerHTML = "Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio,
+  in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus
+  scelerisque quis.";
+
+const h4About= document.querySelector('h4'[1]);
+  h4About.innerHTML = "About";
+
+const pAbout = document.querySelector('p'[1]);
+pAbout.innerHTML = "About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in
+interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus
+scelerisque quis.";
+
+
+const middleImage = document.querySelector('middle-img');
+  middleImage.src = "img/mid-page-acccent.jpg";
+
+const h4Services = document.querySelector('h4'[2]);
+h4Services.innerHTML = "Services";
+
+const pServices = document.getElementByID('p'[2]);
+  pServices.innerHTML = "About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in
+  interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus
+  scelerisque quis.";
+
+const h4Product = document.getElementsByClassName.ByID('h4'[3]);
+  h4Product.innerHTML = "Product";
+
+const pProduct = document.getElementByID('p'[3]);
+  pProduct.innerHTML = "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in
+  interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus
+  scelerisque quis";
+
+const h4Vision = document.querySelector('h4'[4]);
+  h4Vision.innerHTML = "Contact";
+
+const pAddress = document.querySelector('p'[4]);
+pAddress.innerHTML = "123 Way 456 Street<br> Somewhere, USA";
+
+const pNumber = document.getElementByID('p'[5]);
+  pNumber.innerHTML = "1 (888) 888-8888";
+
+const pEmail = document.getElementById('p')[6];
+  pEmail.innerHTML = "sales@greatidea.io";
+
+const footer = document.querySelectot('p'[7]);
+  footer.innerHTML = "Copyright Great Idea 2018";
 
 
 
-const h4About = document.getElementsByTagName('h4'[1]);
-  h4About.innerHTML = "About";  
-
-const aboutContent = document.getElementsByTagName('p')[1];
-aboutContent.innerHTML = "About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
 
 
-const middleImg = document.getElementsByTagName('middle-img');
-  middleImg.src = ("img/mid-page-accent.jpg");
+
+
+
 
 
 
